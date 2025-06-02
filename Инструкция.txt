@@ -7,3 +7,7 @@ docker-compose exec backend python manage.py migrate --database=archive
 docker-compose exec backend python manage.py createsuperuser
 
 docker-compose up --build
+В бэкенде добавить отдел и потом добавить отдел: 
+http://localhost:8010/admin/login/?next=/admin/
+Потом всё взаимодействие:
+http://localhost:3000/
